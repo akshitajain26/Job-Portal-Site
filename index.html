@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Indeed</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl pb-0 navbar-light">
+        <div class="container-fluid">
+         <img src="2560px-Indeed_logo.svg.png" width="75px" style="padding-bottom: 14px; padding-right: 10px;">
+         <button style="height: 40px;" class="btn button signin hide"><i class="fas fa-user" style="padding-right: 10px; "></i>Sign in</button>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav nav1">
+              <a class="nav-link unhide" href="#" style="border-bottom: 2px solid #2557a7 !important;">Find jobs</a>
+              <a class="nav-link hide" href="#">Find jobs<i class="fa fa-chevron-right float-end wt" aria-hidden="true" ></i></a>
+              <a class="nav-link" href="#">Company reviews<i class="fa fa-chevron-right hide float-end wt" aria-hidden="true" ></i></a>
+              <a class="nav-link" href="#">Find salaries<i class="fa fa-chevron-right hide float-end wt" aria-hidden="true" ></i></a> 
+              <a class="nav-link hide" href="#">Employers<i class="fa fa-chevron-right float-end wt" aria-hidden="true" ></i></a>
+              <a class="nav-link hide createResume " href="#">Create your resume<i class="fa fa-chevron-right float-end wt" aria-hidden="true" ></i></a>
+              <a class="nav-link hide" href="#">Country and language<i class="fa fa-chevron-right float-end wt" aria-hidden="true" ></i>
+              <div class="hide text-muted">IN India</div></a>
+              <a class="nav-link hide" href="#">Help center<i class="fa fa-chevron-right float-end wt" aria-hidden="true" ></i></a>
+            </div>
+            <div class="navbar-nav ms-auto unhide">
+                <a class="nav-link" href="#">Post your resume</a>
+                <a class="nav-link wt" href="#" style="color:#2557a7 !important;">Sign in</a>
+                <span style="padding-right: 15px; padding-top: 5px;">|</span>
+                <a class="nav-link" href="#">Employers / Post job</a> 
+              </div>
+          </div>
+        </div>
+      </nav>
+      <hr style=" margin-top: 0;">
+      <div class="cont hide123">
+      <div class="container">
+          <div class="row pb-4 mt-4">
+              <div class="col-xl-4">
+                <div class="input-box mb-2"  id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <input type="text" class="input12 input123" autocomplete="off" placeholder="job title, keywords, or company" name="search" >
+        <span class="unit">What</span>
+        <span class="icon "><i class="fas fa-search search"></i></span>
+      </div>
+      <ul class="dropdown-menu dm" aria-labelledby="dropdownMenuButton1">
+        <li class="listType"><a class="dropdown-item pb-2 pt-2 wt" href="#">work from home</a></li>
+        <li class="listType"><a class="dropdown-item pb-2 pt-2 wt" href="#">fresher</a></li>
+        <li class="listType"><a class="dropdown-item pb-2 pt-2 wt" href="#">freshers job vacancy</a></li>
+        <li class="listType"><a class="dropdown-item pb-2 pt-2 wt" href="#">office assistant</a></li>
+        <li class="listType"><a class="dropdown-item pb-2 pt-2 wt" href="#">part time</a></li>
+        <li class="listType"><a class="dropdown-item pb-2 pt-2 wt" href="#">accountant</a></li>
+        <li class="listType"><a class="dropdown-item pb-2 pt-2 wt" href="#">computer operator</a></li>
+        <li class="listType"><a class="dropdown-item pb-2 pt-2 wt" href="#">data entry</a></li>
+        <li class="listType"><a class="dropdown-item pb-2 pt-2 wt" href="#">back office</a></li>
+        <li class="listType"><a class="dropdown-item pb-2 pt-2 wt" href="#">work from home part time</a></li>
+      </ul>
+      </div>
+      <div class="col-xl-4">
+        <div class="input-box mb-2" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          <input type="text" class="input123" autocomplete="off" placeholder="city, state, or pin code" name="search">
+<span class="unit">Where</span>
+<span class="icon"><i class="fas fa-map-marker-alt"></i>
+</span>
+</div>
+<ul class="dropdown-menu dm" aria-labelledby="dropdownMenuButton1">
+ <li class="listType"><a class="dropdown-item pb-2 pt-2 wt" href="#">Jaipur, Rajasthan</a></li>
+ <li class="listType"><a class="dropdown-item pb-2 pt-2 wt" href="#">Delhi</a></li>
+ <li class="listType"><a class="dropdown-item pb-2 pt-2 wt" href="#">Noida, Uttar Pradesh</a></li>
+ <li class="listType"><a class="dropdown-item pb-2 pt-2 wt" href="#">Mumbai, Maharashtra</a></li>
+ <li class="listType"><a class="dropdown-item pb-2 pt-2 wt" href="#">Delhi, Delhi</a></li>
+ <li class="listType"><a class="dropdown-item pb-2 pt-2 wt" href="#">Jaipur City, Rajasthan</a></li>
+ <li class="listType"><a class="dropdown-item pb-2 pt-2 wt" href="#">Gurgaon, Haryana</a></li>
+ <li class="listType"><a class="dropdown-item pb-2 pt-2 wt" href="#">Pune, Maharashtra</a></li>
+ <li class="listType"><a class="dropdown-item pb-2 pt-2 wt" href="#">Hyderabad, Telangana</a></li>
+ <li class="listType"><a class="dropdown-item pb-2 pt-2 wt" href="#">Ahemdabad, Gujarat</a></li>
+</ul>
+</div>
+        <div class="col-xl-4 divv1">
+        <button class="button btn">Find jobs</button>
+        <small class="small text-muted" >Advanced Job Search</small>
+        </div>
+      </div> 
+      <div class="dropdown-box">
+        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Data Posted
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Last 24 hours</a></li>
+          <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Last 3 days</a></li>
+          <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Last 7 days</a></li>
+          <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Last 14 days</a></li>
+          <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Since your last visit</a></li>
+        </ul>
+        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Remote
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Temporarily remote (COVID-19) (78)</a></li>
+          <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Remote (73)</a></li>
+        </ul>
+        <button class="btn dropdown-toggle " style="background-color: #595959; color: white;" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          within 25 kilometers
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Exact location only</a></li>
+          <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">within 5 kilometers</a></li>
+          <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">within 10 kilometers</a></li>
+          <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">within 15 kilometers</a></li>
+          <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">within 25 kilometers</a></li>
+          <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">within 50 kilometers</a></li>
+          <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">within 100 kilometers</a></li>
+        </ul>
+        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Salary Estimate
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">₹ 36,666.67+/month (1383)</a></li>
+          <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">₹ 38,333.33+/month (1074)</a></li>
+          <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">₹ 51,666.67+/month (817)</a></li>
+          <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">₹ 65,000.00+/month (544)</a></li>
+          <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">₹ 83,333.34+/month (270)</a></li>
+        </ul>
+
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+           Job Type
+     </button>
+     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+       <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Full-Time (1102)</a></li>
+       <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Contact (34)</a></li>
+       <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Temporary (25)</a></li>
+       <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Internship (10)</a></li>
+       <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Part Time (7)</a></li>
+       <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Fresher (5)</a></li>
+     </ul>
+      <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+       Programming Language
+ </button>
+ <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Node.js (1624)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">JavaScript (1030)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">HTML5 (925)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Angular (910)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Java (906)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">React (662)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">SQL (579)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Python (414)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Hibernate (344)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">.NET (178)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Bootstrap (176)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Go (156)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">PHP (113)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">J2EE (94)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">C (60)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">C++ (55)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">ABAP (36)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">.NET Core (32)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Perl (31)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Shell Scripting (31)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Selenium (29)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">R (17)</a></li>
+   <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Visual Basic (7)</a></li>
+ </ul>
+ <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+  Education Level
+</button>
+<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Master’s degree (763)</a></li>
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Bachelor’s degree (752)</a></li>
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Doctoral degree (10)</a></li>
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Diploma (5)</a></li>
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">12th Pass (2)</a></li>
+</ul>
+<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+ Location
+</button>
+<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Bengaluru , Karnataka (1613)</a></li>
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Karnataka (10)</a></li>
+</ul>
+<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+ Company
+</button>
+<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">IBM (1624)</a></li>
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Oracle (1030)</a></li>
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">SAP (925)</a></li>
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Genpact (910)</a></li>
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Simens technology and Services Private Limited (906)</a></li>
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">DXC (662)</a></li>
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">PayPal (579)</a></li>
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Talent Zone Consultants (414)</a></li>
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Ellucian (344)</a></li>
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Square Root Consulting (178)</a></li>
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Well Fargo (176)</a></li>
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Skilora (156)</a></li>
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Sutherland (113)</a></li>
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Twilio (94)</a></li>
+<li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">Honeywell (60)</a></li>
+</ul>
+<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+ Job Language
+ </button>
+ <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+ <li class="listType"><a class="dropdown-item pb-2 pt-2" href="#">English (1625)</a></li>
+ </ul>
+    </div>
+      </div>
+      </div>
+    <hr>
+    <div class="cont hide123">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6">
+        <h6 class="pt-3 unhide" style="font-size: 14px; padding-left: 15px;">  <a href="" class="font-weight-bold underline mb-2" style="color:#2557a7; text-decoration:none;">Upload your resume</a> - Let employers find you</h6>
+       <hr>
+        <p class="text-muted font13 padding-left: 15px;">Node Js Developer jobs in Bengaluru, Karnataka</p>
+      <div class="row">
+        <div class="col-xl-8 col-sm-8 col-8 unhide">
+      <p style="font-size: 13px; padding-left: 15px;"> Sort by:<span class="font-weight-bold"> relevance -</span> <a href="" class="underline" style="color:#2557a7; text-decoration:none;">date</a></p>
+       </div>
+       <div class="col-xl-42"><p class="text-muted font13">Page 1 of 1,565 jobs  <span><i class="far fa-question-circle "></i></span></p>
+       </div>
+       </div>
+       <div class="card mb-2 cards" data-cardId="0">
+        <div class="card-body">
+          <div class="dropdown">
+            <button class="btn maintain float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </button>
+             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+               <li class="listType font13"><a class="dropdown-item pt-2 pb-2" href="#"><i class="far fa-heart menuIcon"></i>Save job</a></li>
+               <li class="listType font13"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fas fa-ban menuIcon"></i>Not interested</a></li>
+               <li class="listType font13"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fa fa-flag menuIcon" aria-hidden="true"></i>Is there problem with this job</a></li>
+             </ul>
+           </div>
+           <i class="far fa-heart hide float-end" style="font-size: 20px;"></i>
+          <h5 class="card-title font-weight-bold">Node js developer_Immediate joiner only </h5>
+          <i class="fas fa-ban hide float-end" style="font-size: 20px;"></i>
+          <p class="card-subtitle" style="font-size:17px;">Ailoitte Technologies Pvt Ltd</p>
+          <p class="card-subtitle mb-2" style="font-size:17px;">Bengaluru , Karnataka &bull; Temporarily Remote</p>
+          <p class="card-subtitle mb-2 mt-2 unhide"><img src="images.png " width="16px"> Apply securely with Indeed Resume</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><img src="images.png " width="16px"> Apply from your phone</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><i class="fas fa-user-plus"></i>Hiring multiple candidates</p>
+          <li class="unhide">Collaborating on the integration of components with front-end developers.</li>
+          <li class="unhide">Bachelor’s or Master’s Degree in Computer Science, Computer Engineering, or a related technical field or equivalent work experience</li>
+         <div style="display: flex; flex-wrap: wrap;">
+          <p class="card-text text-muted mt-2 font13">11 days ago</p>
+            <button class="btn unhide toggleBtn" type="button">
+            <small>More... </small></button>
+          <div class="collapse text-muted bg-light p-3" style="display: none; overflow: hidden;">
+            <i class="fas fa-times close-btn"></i>
+             <li class="list">View all <a href="">Shuru Consulting jobs - Bengaluru jobs</a></li>
+             <li class="list">Salary Search: <a href="">Node js developer salaries in Bengaluru,Karnataka</a></li>
+            </div>
+           </div>
+           </div>
+      </div>
+      <div class="card mb-2 cards" data-cardId="1">
+        <div class="card-body">
+          <div class="dropdown">
+            <button class="btn maintain float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+               <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </button>
+             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="far fa-heart menuIcon"></i>Save job</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fas fa-ban menuIcon"></i>Not interested</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fa fa-flag menuIcon" aria-hidden="true"></i>Is there problem with this job</a></li>
+             </ul>
+           </div>
+           <i class="far fa-heart hide float-end" style="font-size: 20px;"></i>
+          <h5 class="card-title font-weight-bold">Node js developer</h5>
+           <i class="fas fa-ban hide float-end" style="font-size: 20px;"></i>
+          <p class="card-subtitle" style="font-size:17px;">Stixis Technologies</p>
+          <p class="card-subtitle mb-2" style="font-size:17px;">Bengaluru , Karnataka &bull; Remote</p>
+          <h6 class="card-subtitle mb-2 font-weight-bold"><span>&#8377;</span>12,00,000 a year</h6>
+          <p class="card-subtitle mb-2 mt-2 unhide"><img src="images.png " width="16px"> Apply securely with Indeed Resume</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><img src="images.png " width="16px"> Apply from your phone</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><i class="fas fa-user-plus"></i>Hiring multiple candidates</p>
+          <li class="unhide">Strong CS fundamentals including familiarity with data structures and especially the asynchronous challenges that face JavaScript developers today.</li>
+          <div style="display: flex; flex-wrap: wrap;">
+          <p class="card-text text-muted mt-2 font13">Just posted</p>
+          <button class="btn unhide toggleBtn" type="button">
+            <small>More... </small></button>
+          <div class="collapse text-muted bg-light p-3" style="display: none; overflow: hidden;">
+            <i class="fas fa-times close-btn"></i>
+             <li class="list">View all <a href="">Shuru Consulting jobs - Bengaluru jobs</a></li>
+             <li class="list">Salary Search: <a href="">Node js developer salaries in Bengaluru,Karnataka</a></li>
+            </div>
+           </div>
+           </div>
+      </div>
+      <div class="card mb-2 cards" data-cardId="2">
+        <div class="card-body">
+          <div class="dropdown">
+            <button class="btn maintain float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+               <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </button>
+             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="far fa-heart menuIcon"></i>Save job</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fas fa-ban menuIcon"></i>Not interested</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fa fa-flag menuIcon" aria-hidden="true"></i>Is there problem with this job</a></li>
+             </ul>
+           </div>
+           <i class="far fa-heart hide float-end" style="font-size: 20px;"></i>
+          <h5 class="card-title font-weight-bold">Node js developer</h5>
+           <i class="fas fa-ban hide float-end" style="font-size: 20px;"></i>
+          <p class="card-subtitle" style="font-size:17px;">Datamatics Global Services Ltd</p>
+          <p class="card-subtitle mb-2" style="font-size:17px;">Bengaluru , Karnataka &bull; Temporarily Remote</p>
+          <h6 class="card-subtitle mb-2 font-weight-bold">&#8377;3,45,535 - &#8377;14,98,078 a year</h6>
+          <p class="card-subtitle mb-2 mt-2 unhide"><img src="images.png " width="16px"> Apply securely with Indeed Resume</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><img src="images.png " width="16px"> Apply from your phone</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><i class="fas fa-user-plus"></i>Hiring multiple candidates</p>
+          <li class="unhide">Creating CRUD APIs for front-end business systems</li>
+          <li class="unhide">Creating Developer friendly service APIs & backend SDKs</li>
+          <li class="unhide">User end products on top of the core technologies</li>
+          <div style="display: flex; flex-wrap: wrap;">
+          <p class="card-text text-muted mt-2 font13">27 days ago</p>
+        <button class="btn unhide toggleBtn" type="button">
+            <small>More... </small></button>
+          <div class="collapse text-muted bg-light p-3" style="display: none; overflow: hidden;">
+            <i class="fas fa-times close-btn"></i>
+             <li class="list">View all <a href="">Shuru Consulting jobs - Bengaluru jobs</a></li>
+             <li class="list">Salary Search: <a href="">Node js developer salaries in Bengaluru,Karnataka</a></li>
+            </div>
+           </div> 
+        </div>
+      </div>
+      <div class="card mb-2 cards" data-cardId="3">
+        <div class="card-body">
+           <div class="dropdown">
+            <button class="btn maintain float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </button>
+             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="far fa-heart menuIcon"></i>Save job</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fas fa-ban menuIcon"></i>Not interested</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fa fa-flag menuIcon" aria-hidden="true"></i>Is there problem with this job</a></li>
+             </ul>
+           </div>
+           <i class="far fa-heart hide float-end" style="font-size: 20px;"></i>
+          <h5 class="card-title font-weight-bold">Node js developer</h5>
+           <i class="fas fa-ban hide float-end" style="font-size: 20px;"></i>
+          <p class="card-subtitle" style="font-size:17px;">Applaunch Bangalore Pvt Ltd</p>
+          <p class="card-subtitle mb-2" style="font-size:17px;">Bengaluru , Karnataka &bull; Temporarily Remote</p>
+          <h6 class="card-subtitle mb-2 font-weight-bold">&#8377;20,000 - &#8377;55,000 a month</h6>
+          <p class="card-subtitle mb-2 mt-2 unhide"><img src="images.png " width="16px"> Apply securely with Indeed Resume</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><img src="images.png " width="16px"> Apply from your phone</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><i class="fas fa-user-plus"></i>Hiring multiple candidates</p>
+          <li class="unhide">Integration of user-facing elements developed by front-end developers with server-side logic.</li>
+          <li class="unhide">Writing reusable, testable, and efficient code.</li>
+          <div style="display: flex; flex-wrap: wrap;">
+          <p class="card-text text-muted mt-2 font13">8 days ago</p>
+        <button class="btn unhide toggleBtn" type="button">
+            <small>More... </small></button>
+          <div class="collapse text-muted bg-light p-3" style="display: none; overflow: hidden;">
+            <i class="fas fa-times close-btn"></i>
+             <li class="list">View all <a href="">Shuru Consulting jobs - Bengaluru jobs</a></li>
+             <li class="list">Salary Search: <a href="">Node js developer salaries in Bengaluru,Karnataka</a></li>
+            </div>
+           </div> 
+        </div>
+      </div>
+      <div class="card mb-2 cards" data-cardId="4">
+        <div class="card-body">
+           <div class="dropdown">
+            <button class="btn maintain float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </button>
+             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="far fa-heart menuIcon"></i>Save job</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fas fa-ban menuIcon"></i>Not interested</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fa fa-flag menuIcon" aria-hidden="true"></i>Is there problem with this job</a></li>
+             </ul>
+           </div>
+           <i class="far fa-heart hide float-end" style="font-size: 20px;"></i>
+          <h5 class="card-title font-weight-bold">Node js developer</h5>
+           <i class="fas fa-ban hide float-end" style="font-size: 20px;"></i>
+          <p class="card-subtitle" style="font-size:17px;">Kode Connect</p>
+          <p class="card-subtitle mb-2" style="font-size:17px;">Bengaluru , Karnataka &bull; Remote</p>
+          <h6 class="card-subtitle mb-2 font-weight-bold">&#8377;50,000 a month</h6>
+          <p class="card-subtitle mb-2 mt-2 unhide"><img src="images.png " width="16px"> Apply securely with Indeed Resume</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><img src="images.png " width="16px"> Apply from your phone</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><i class="fas fa-user-plus"></i>Hiring multiple candidates</p>
+          <li class="unhide">Strong debugging and troubleshooting skills.</li>
+          <li class="unhide">Strong debugging and troubleshooting skills.</li>
+          <li class="unhide">2.5 -3 years' of development experience.</li>
+          <div style="display: flex; flex-wrap: wrap;">
+          <p class="card-text text-muted mt-2 font13">11 days ago
+         <button class="btn unhide toggleBtn" type="button">
+            <small>More... </small></button>
+          <div class="collapse text-muted bg-light p-3" style="display: none; overflow: hidden;">
+            <i class="fas fa-times close-btn"></i>
+             <li class="list">View all <a href="">Shuru Consulting jobs - Bengaluru jobs</a></li>
+             <li class="list">Salary Search: <a href="">Node js developer salaries in Bengaluru,Karnataka</a></li>
+            </div>
+           </div>
+          </p>
+           </div>
+      </div>
+      <div class="card mb-2 cards">
+        <div class="card-body">
+           <div class="dropdown">
+            <button class="btn maintain float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </button>
+             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="far fa-heart menuIcon"></i>Save job</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fas fa-ban menuIcon"></i>Not interested</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fa fa-flag menuIcon" aria-hidden="true"></i>Is there problem with this job</a></li>
+             </ul>
+           </div>
+           <i class="far fa-heart hide float-end" style="font-size: 20px;"></i>
+          <h5 class="card-title font-weight-bold">Node js developer</h5>
+           <i class="fas fa-ban hide float-end" style="font-size: 20px;"></i>
+          <p class="card-subtitle" style="font-size:17px;">High Peak Software</p>
+          <p class="card-subtitle mb-2" style="font-size:17px;">Bengaluru , Karnataka &bull; Temporarily Remote</p>
+          <h6 class="card-subtitle mb-2 font-weight-bold">&#8377;12,514 - &#8377;55,414 a month</h6>
+          <p class="card-subtitle mb-2 mt-2 unhide"><img src="images.png " width="16px"> Apply securely with Indeed Resume</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><img src="images.png " width="16px"> Apply from your phone</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><i class="fas fa-user-plus"></i>Hiring multiple candidates</p>
+          <li class="unhide">Integration of user-facing elements developed by front-end developers with server-side logic</li>
+          <li class="unhide">Writing reusable, testable, and efficient code.</li>
+          <div style="display: flex; flex-wrap: wrap;">
+          <p class="card-text text-muted mt-2 font13">11 days ago
+         <button class="btn unhide toggleBtn" type="button">
+            <small>More... </small></button>
+          <div class="collapse text-muted bg-light p-3" style="display: none; overflow: hidden;">
+            <i class="fas fa-times close-btn"></i>
+             <li class="list">View all <a href="">Shuru Consulting jobs - Bengaluru jobs</a></li>
+             <li class="list">Salary Search: <a href="">Node js developer salaries in Bengaluru,Karnataka</a></li>
+            </div>
+           </div>
+          </p>
+           </div>
+      </div>
+      <div class="card mb-2 cards">
+        <div class="card-body">
+           <div class="dropdown">
+            <button class="btn maintain float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </button>
+             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="far fa-heart menuIcon"></i>Save job</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fas fa-ban menuIcon"></i>Not interested</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fa fa-flag menuIcon" aria-hidden="true"></i>Is there problem with this job</a></li>
+             </ul>
+           </div>
+           <i class="far fa-heart hide float-end" style="font-size: 20px;"></i>
+          <h5 class="card-title font-weight-bold">Full Stack Developer </h5>
+           <i class="fas fa-ban hide float-end" style="font-size: 20px;"></i>
+          <p class="card-subtitle" style="font-size:17px;">Snapwiz-EDULASTIC</p>
+          <p class="card-subtitle mb-2" style="font-size:17px;">Bengaluru , Karnataka &bull; Temporarily Remote</p>
+          <h6 class="card-subtitle mb-2 font-weight-bold">&#8377;5,00,000 - &#8377;15,00,000 a year</h6>
+          <p class="card-subtitle mb-2 mt-2 unhide"><img src="images.png " width="16px"> Apply securely with Indeed Resume</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><img src="images.png " width="16px"> Apply from your phone</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><i class="fas fa-user-plus"></i>Hiring multiple candidates</p>
+          <li class="unhide">Responsible for building responsive and elegant web applications.</li>
+          <li class="unhide">Working with designers, product managers to collaboratively own the front-end and back-end layer to deliver stellar end-user experiences.</li>
+          <div style="display: flex; flex-wrap: wrap;">
+          <p class="card-text text-muted mt-2 font13">1 days ago
+         <button class="btn unhide toggleBtn" type="button">
+            <small>More... </small></button>
+          <div class="collapse text-muted bg-light p-3" style="display: none; overflow: hidden;">
+            <i class="fas fa-times close-btn"></i>
+             <li class="list">View all <a href="">Shuru Consulting jobs - Bengaluru jobs</a></li>
+             <li class="list">Salary Search: <a href="">Node js developer salaries in Bengaluru,Karnataka</a></li>
+            </div>
+           </div>
+          </p>
+           </div>
+      </div>
+      <div class="card mb-2 cards">
+        <div class="card-body">
+           <div class="dropdown">
+            <button class="btn maintain float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </button>
+             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="far fa-heart menuIcon"></i>Save job</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fas fa-ban menuIcon"></i>Not interested</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fa fa-flag menuIcon" aria-hidden="true"></i>Is there problem with this job</a></li>
+             </ul>
+           </div>
+           <i class="far fa-heart hide float-end" style="font-size: 20px;"></i>
+          <h5 class="card-title font-weight-bold">Junior Backend Engineer-Node.js/Express.js </h5>
+           <i class="fas fa-ban hide float-end" style="font-size: 20px;"></i>
+          <p class="card-subtitle" style="font-size:17px;">Vamstar</p>
+          <p class="card-subtitle mb-2" style="font-size:17px;">Bengaluru , Karnataka</p>
+          <h6 class="card-subtitle mb-2 font-weight-bold">&#8377;45,000 - &#8377;65,000 a month</h6>
+          <p class="card-subtitle mb-2 mt-2 unhide"><img src="images.png " width="16px"> Apply securely with Indeed Resume</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><img src="images.png " width="16px"> Apply from your phone</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><i class="fas fa-user-plus"></i>Hiring multiple candidates</p>
+          <li class="unhide">Responsible for building responsive and elegant web applications.</li>
+          <li class="unhide">Exposure to React 16+ a plus.</li>
+          <div style="display: flex; flex-wrap: wrap;">
+          <p class="card-text text-muted mt-2 font13">12 days ago
+         <button class="btn unhide toggleBtn" type="button">
+            <small>More... </small></button>
+          <div class="collapse text-muted bg-light p-3" style="display: none; overflow: hidden;">
+            <i class="fas fa-times close-btn"></i>
+             <li class="list">View all <a href="">Shuru Consulting jobs - Bengaluru jobs</a></li>
+             <li class="list">Salary Search: <a href="">Node js developer salaries in Bengaluru,Karnataka</a></li>
+            </div>
+           </div>
+          </p>
+           </div>
+      </div>
+      <div class="card mb-2 cards">
+        <div class="card-body">
+           <div class="dropdown">
+            <button class="btn maintain float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </button>
+             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="far fa-heart menuIcon"></i>Save job</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fas fa-ban menuIcon"></i>Not interested</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fa fa-flag menuIcon" aria-hidden="true"></i>Is there problem with this job</a></li>
+             </ul>
+           </div>
+           <i class="far fa-heart hide float-end" style="font-size: 20px;"></i>
+          <h5 class="card-title font-weight-bold">Opportunity for Front End Developer </h5>
+           <i class="fas fa-ban hide float-end" style="font-size: 20px;"></i>
+          <p class="card-subtitle" style="font-size:17px;">RyBlue Logistics</p>
+          <p class="card-subtitle mb-2" style="font-size:17px;">Bengaluru , Karnataka &bull; Temporarily Remote</p>
+          <h6 class="card-subtitle mb-2 font-weight-bold">&#8377;35,000 - &#8377;54,000 a year</h6>
+          <p class="card-subtitle mb-2 mt-2 unhide"><img src="images.png " width="16px"> Apply securely with Indeed Resume</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><img src="images.png " width="16px"> Apply from your phone</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><i class="fas fa-user-plus"></i>Hiring multiple candidates</p>
+          <li class="unhide">2+ years of Frontend development experience.</li>
+          <li class="unhide">Bachelor's degree preferred or equivalent.</li>
+          <li class="unhide">Problem Solver: Ability to formulate/implement technical solutions, proven ability to understand, analyzes, and solves issues with guidance.</li>
+          <div style="display: flex; flex-wrap: wrap;">
+          <p class="card-text text-muted mt-2 font13">8 days ago
+         <button class="btn unhide toggleBtn" type="button">
+            <small>More... </small></button>
+          <div class="collapse text-muted bg-light p-3" style="display: none; overflow: hidden;">
+            <i class="fas fa-times close-btn"></i>
+             <li class="list">View all <a href="">Shuru Consulting jobs - Bengaluru jobs</a></li>
+             <li class="list">Salary Search: <a href="">Node js developer salaries in Bengaluru,Karnataka</a></li>
+            </div>
+           </div>
+          </p>
+           </div>
+      </div>
+      <div class="card mb-2 cards">
+        <div class="card-body">
+           <div class="dropdown">
+            <button class="btn maintain float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </button>
+             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="far fa-heart menuIcon"></i>Save job</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fas fa-ban menuIcon"></i>Not interested</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fa fa-flag menuIcon" aria-hidden="true"></i>Is there problem with this job</a></li>
+             </ul>
+           </div>
+           <i class="far fa-heart hide float-end" style="font-size: 20px;"></i>
+          <h5 class="card-title font-weight-bold">ReactJs Developer </h5>
+           <i class="fas fa-ban hide float-end" style="font-size: 20px;"></i>
+          <p class="card-subtitle" style="font-size:17px;">Sulopa Technologies Pvt Ltd</p>
+          <p class="card-subtitle mb-2" style="font-size:17px;">Bengaluru , Karnataka &bull; Temporarily Remote</p>
+          <h6 class="card-subtitle mb-2 font-weight-bold">&#8377;45,000 - &#8377;90,000 a month</h6>
+          <p class="card-subtitle mb-2 mt-2 unhide"><img src="images.png " width="16px"> Apply securely with Indeed Resume</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><img src="images.png " width="16px"> Apply from your phone</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><i class="fas fa-user-plus"></i>Hiring multiple candidates</p>
+          <li class="unhide">Develop and support Single page applications for web applications leveraging modern JS frameworks & Web standards.</li>
+          <li class="unhide">Actively participate in Agile ceremonies.</li>
+          <div style="display: flex; flex-wrap: wrap;">
+          <p class="card-text text-muted mt-2 font13">3 days ago
+         <button class="btn unhide toggleBtn" type="button">
+            <small>More... </small></button>
+          <div class="collapse text-muted bg-light p-3" style="display: none; overflow: hidden;">
+            <i class="fas fa-times close-btn"></i>
+             <li class="list">View all <a href="">Shuru Consulting jobs - Bengaluru jobs</a></li>
+             <li class="list">Salary Search: <a href="">Node js developer salaries in Bengaluru,Karnataka</a></li>
+            </div>
+           </div>
+          </p>
+           </div>
+      </div>
+      <div class="card mb-2 cards">
+        <div class="card-body">
+           <div class="dropdown">
+            <button class="btn maintain float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </button>
+             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="far fa-heart menuIcon"></i>Save job</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fas fa-ban menuIcon"></i>Not interested</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fa fa-flag menuIcon" aria-hidden="true"></i>Is there problem with this job</a></li>
+             </ul>
+           </div>
+           <i class="far fa-heart hide float-end" style="font-size: 20px;"></i>
+          <h5 class="card-title font-weight-bold">Backend Developer-Node JS, PostgreSQL </h5>
+           <i class="fas fa-ban hide float-end" style="font-size: 20px;"></i>
+          <p class="card-subtitle" style="font-size:17px;">Rigbot Solutions Private Limited</p>
+          <p class="card-subtitle mb-2" style="font-size:17px;">Bengaluru , Karnataka &bull; Temporarily Remote</p>
+          <h6 class="card-subtitle mb-2 font-weight-bold">&#8377;4,20,000 - &#8377;9,00,000 a year</h6>
+          <p class="card-subtitle mb-2 mt-2 unhide"><img src="images.png " width="16px"> Apply securely with Indeed Resume</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><img src="images.png " width="16px"> Apply from your phone</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><i class="fas fa-user-plus"></i>Hiring multiple candidates</p>
+          <li class="unhide">Mentor and coach junior developers</li>
+          <li class="unhide">The developer should be capable of rapidly developing, releasing prototypes while refactoring and fixing/maintaining older code, adhering to strict deadlines.</li>
+          <div style="display: flex; flex-wrap: wrap;">
+          <p class="card-text text-muted mt-2 font13">30+ days ago
+         <button class="btn unhide toggleBtn" type="button">
+            <small>More... </small></button>
+          <div class="collapse text-muted bg-light p-3" style="display: none; overflow: hidden;">
+            <i class="fas fa-times close-btn"></i>
+             <li class="list">View all <a href="">Shuru Consulting jobs - Bengaluru jobs</a></li>
+             <li class="list">Salary Search: <a href="">Node js developer salaries in Bengaluru,Karnataka</a></li>
+            </div>
+           </div>
+          </p>
+           </div>
+      </div>
+      <div class="card mb-2 cards">
+        <div class="card-body">
+           <div class="dropdown">
+            <button class="btn maintain float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </button>
+             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="far fa-heart menuIcon"></i>Save job</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fas fa-ban menuIcon"></i>Not interested</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fa fa-flag menuIcon" aria-hidden="true"></i>Is there problem with this job</a></li>
+             </ul>
+           </div>
+           <i class="far fa-heart hide float-end" style="font-size: 20px;"></i>
+          <h5 class="card-title font-weight-bold">Node js Developer </h5>
+           <i class="fas fa-ban hide float-end" style="font-size: 20px;"></i>
+          <p class="card-subtitle" style="font-size:17px;">Blu Technosoft</p>
+          <p class="card-subtitle mb-2" style="font-size:17px;">Bengaluru , Karnataka &bull; Temporarily Remote</p>
+          <h6 class="card-subtitle mb-2 font-weight-bold">&#8377;15,000 - &#8377;50,000 a month</h6>
+          <p class="card-subtitle mb-2 mt-2 unhide"><img src="images.png " width="16px"> Apply securely with Indeed Resume</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><img src="images.png " width="16px"> Apply from your phone</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><i class="fas fa-user-plus"></i>Hiring multiple candidates</p>
+          <li class="unhide">Total work: 1 year (Preferred).</li>
+          <li class="unhide">Software development: 1 year (Preferred).</li>
+          <div style="display: flex; flex-wrap: wrap;">
+          <p class="card-text text-muted mt-2 font13">30 days ago
+         <button class="btn unhide toggleBtn" type="button">
+            <small>More... </small></button>
+          <div class="collapse text-muted bg-light p-3" style="display: none; overflow: hidden;">
+            <i class="fas fa-times close-btn"></i>
+             <li class="list">View all <a href="">Shuru Consulting jobs - Bengaluru jobs</a></li>
+             <li class="list">Salary Search: <a href="">Node js developer salaries in Bengaluru,Karnataka</a></li>
+            </div>
+           </div>
+          </p>
+           </div>
+      </div>
+      <div class="card mb-2 cards">
+        <div class="card-body">
+           <div class="dropdown">
+            <button class="btn maintain float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </button>
+             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="far fa-heart menuIcon"></i>Save job</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fas fa-ban menuIcon"></i>Not interested</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fa fa-flag menuIcon" aria-hidden="true"></i>Is there problem with this job</a></li>
+             </ul>
+           </div>
+           <i class="far fa-heart hide float-end" style="font-size: 20px;"></i>
+          <h5 class="card-title font-weight-bold">Node js Developer </h5>
+           <i class="fas fa-ban hide float-end" style="font-size: 20px;"></i>
+          <p class="card-subtitle" style="font-size:17px;">EdSanta Education Pvt Ltd</p>
+          <p class="card-subtitle mb-2" style="font-size:17px;">Bengaluru , Karnataka &bull; Temporarily Remote</p>
+          <h6 class="card-subtitle mb-2 font-weight-bold">&#8377;20,000 - &#8377;60,000 a month</h6>
+          <p class="card-subtitle mb-2 mt-2 unhide"><img src="images.png " width="16px"> Apply securely with Indeed Resume</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><img src="images.png " width="16px"> Apply from your phone</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><i class="fas fa-user-plus"></i>Hiring multiple candidates</p>
+          <li class="unhide">Proven work experience as a Back-end developer of minimum 3+ years</li>
+          <li class="unhide">Preferred candidates who can join within 15-20 days.</li>
+          <div style="display: flex; flex-wrap: wrap;">
+          <p class="card-text text-muted mt-2 font13">Today
+         <button class="btn unhide toggleBtn" type="button">
+            <small>More... </small></button>
+          <div class="collapse text-muted bg-light p-3" style="display: none; overflow: hidden;">
+            <i class="fas fa-times close-btn"></i>
+             <li class="list">View all <a href="">Shuru Consulting jobs - Bengaluru jobs</a></li>
+             <li class="list">Salary Search: <a href="">Node js developer salaries in Bengaluru,Karnataka</a></li>
+            </div>
+           </div>
+          </p>
+           </div>
+      </div>
+      <div class="card mb-2 cards">
+        <div class="card-body">
+           <div class="dropdown">
+            <button class="btn maintain float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </button>
+             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="far fa-heart menuIcon"></i>Save job</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fas fa-ban menuIcon"></i>Not interested</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fa fa-flag menuIcon" aria-hidden="true"></i>Is there problem with this job</a></li>
+             </ul>
+           </div>
+           <i class="far fa-heart hide float-end" style="font-size: 20px;"></i>
+          <h5 class="card-title font-weight-bold">Node js Developer </h5>
+           <i class="fas fa-ban hide float-end" style="font-size: 20px;"></i>
+          <p class="card-subtitle" style="font-size:17px;">Metamorfs Infotech Pvt Ltd</p>
+          <p class="card-subtitle mb-2" style="font-size:17px;">Bengaluru , Karnataka &bull; Remote</p>
+          <h6 class="card-subtitle mb-2 font-weight-bold">&#8377;3,00,000 - &#8377;15,00,000 a month</h6>
+          <p class="card-subtitle mb-2 mt-2 unhide"><img src="images.png " width="16px"> Apply securely with Indeed Resume</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><img src="images.png " width="16px"> Apply from your phone</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><i class="fas fa-user-plus"></i>Hiring multiple candidates</p>
+          <li class="unhide">React js: 1 year (Preferred).</li>
+          <li class="unhide">Have a deep understanding of JavaScript (3+ years), react.js (1+ years).</li>
+          <li class="unhide">Confident with asynchronous programming concepts and how to use them pragmatically from JavaScript.</li>
+          <div style="display: flex; flex-wrap: wrap;">
+          <p class="card-text text-muted mt-2 font13">19 days ago
+         <button class="btn unhide toggleBtn" type="button">
+            <small>More... </small></button>
+          <div class="collapse text-muted bg-light p-3" style="display: none; overflow: hidden;">
+            <i class="fas fa-times close-btn"></i>
+             <li class="list">View all <a href="">Shuru Consulting jobs - Bengaluru jobs</a></li>
+             <li class="list">Salary Search: <a href="">Node js developer salaries in Bengaluru,Karnataka</a></li>
+            </div>
+           </div>
+          </p>
+           </div>
+      </div>
+      <div class="card mb-2 cards">
+        <div class="card-body">
+           <div class="dropdown">
+            <button class="btn maintain float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </button>
+             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="far fa-heart menuIcon"></i>Save job</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fas fa-ban menuIcon"></i>Not interested</a></li>
+               <li class="font13 listType"><a class="dropdown-item pt-2 pb-2" href="#"><i class="fa fa-flag menuIcon" aria-hidden="true"></i>Is there problem with this job</a></li>
+             </ul>
+           </div>
+           <i class="far fa-heart hide float-end" style="font-size: 20px;"></i>
+          <h5 class="card-title font-weight-bold">Node js Developer </h5>
+           <i class="fas fa-ban hide float-end" style="font-size: 20px;"></i>
+          <p class="card-subtitle" style="font-size:17px;">Golify</p>
+          <p class="card-subtitle mb-2" style="font-size:17px;">Bengaluru , Karnataka &bull; Temporarily Remote</p>
+          <h6 class="card-subtitle mb-2 font-weight-bold">&#8377;8,00,000 a month</h6>
+          <p class="card-subtitle mb-2 mt-2 unhide"><img src="images.png " width="16px"> Apply securely with Indeed Resume</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><img src="images.png " width="16px"> Apply from your phone</p>
+          <p class="card-subtitle mb-2 mt-2 hide"><i class="fas fa-user-plus"></i>Hiring multiple candidates</p>
+          <li class="unhide">At least two years' experience as a Node.js developer.</li>
+          <li class="unhide">Collaborating with front-end developers on the integration of elements.</li>
+          <div style="display: flex; flex-wrap: wrap;">
+          <p class="card-text text-muted mt-2 font13">30 days ago
+         <button class="btn unhide toggleBtn" type="button">
+            <small>More... </small></button>
+          <div class="collapse text-muted bg-light p-3" style="display: none; overflow: hidden;">
+            <i class="fas fa-times close-btn"></i>
+             <li class="list">View all <a href="">Shuru Consulting jobs - Bengaluru jobs</a></li>
+             <li class="list">Salary Search: <a href="">Node js developer salaries in Bengaluru,Karnataka</a></li>
+            </div>
+           </div>
+          </p>
+           </div>
+      </div>
+      <nav aria-label="..." class="d-flex justify-content-center">
+        <ul class="pagination pt-3 pb-5 unhide">
+          <li class="page-item">
+            <a class="page-link linkx" href="#" tabindex="-1" >1</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item"><a class="page-link" style="border-radius: 10px;" href="#">></a></li>
+        </ul>
+      </nav>
+      <button type="button" class="button btn mb-5 mt-4 hide" style="width: 100%; height: 50px;">Next Page</button>
+      <h6 class="jobalert_heading mt-5 pt-5 hide" style="font-size: 18px;">Get WhatsApp and/or Email updates for the latest <b>Node Js Developer jobs in Bangalore, Karnataka</b></h6>
+      <form class="hide mt-4 pt-4 border-0">
+        <label for="inputEmail4">WhatsApp Number</label>
+        <div class="form-row">
+          <div class="form-group col-4">
+            <input class="form-control" style="padding:30px; font-size: 12px;" id="inputEmail4" value="IN +91">
+          </div>
+          <div class="form-group col-8">
+            <input type="number" class="form-control" style="padding:30px;" id="inputPassword4">
+          </div>
+        </div>
+       <p class="legend">and/or</p>
+          <label for="inputAddress" >Email</label>
+          <input type="email" class="form-control" style="padding:30px;" id="inputAddress" >
+        <button type="submit" class="btn footer mb-2 mt-3 p-3" style="width: 100%;">Get Latest Jobs</button>
+      </form>
+      <p class="jobalert_caption hide text-muted mt-5 font13">By creating a job alert, you agree to our <a href="http://in.indeed.com/legal?hl=en" target="_blank" aria-label="Terms opens in a new tab" role="link">Terms</a>. You can change your consent settings at any time by unsubscribing or as detailed in our terms.</p>
+      <a href="/legal?from=WaJa" class="hide pb-4" style="color:#2557a7 !important; font-size: 11px;">By creating a whatsapp or email job alert, you agree to receive messages from Indeed and agree to our Terms of Service.</a>
+      <h6 class="pt-5 hide">People also searched:</h6>
+      <button type="button" class="btn footer low mb-2"><i class="fas fa-search"></i>node js</button>
+      <button type="button" class="btn footer low mb-2"><i class="fas fa-search"></i>react js developer</button>
+      <button type="button" class="btn footer low mb-2"><i class="fas fa-search"></i>php developer</button>
+      <button type="button" class="btn footer low mb-2"><i class="fas fa-search"></i>node js developer fresher</button>
+      <button type="button" class="btn footer low mb-2"><i class="fas fa-search"></i>laravel developer</button>
+      <button type="button" class="btn footer low mb-2"><i class="fas fa-search"></i>full stack developer</button>
+      <button type="button" class="btn footer low mb-2"><i class="fas fa-search"></i>mern stack developer</button>
+      <button type="button" class="btn footer low mb-2"><i class="fas fa-search"></i>node js fresher</button>
+      <button type="button" class="btn footer low mb-2"><i class="fas fa-search"></i>java developer</button>
+      <button type="button" class="btn footer low mb-2"><i class="fas fa-search"></i>mern stack developer</button>
+      </div>
+      <div class="col-xl-4 cardBody" id="form" data-cardId="5">
+        <form class="border pt-1 pb-2 form1">
+        <small class="px-3 py-3 pb-0 wt font12">Get new jobs for this search by email</small>
+        <hr>
+        <div class="px-3 py-3 pt-0 pb-0">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"><small style="font-size: 13px;">Email address</small></label>
+            <input type="email" style="border-radius: 12px; border-color:gray" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <button type="submit" class="btn mb-2 activate">Activate</button>
+          <div id="emailHelp" class="form-text text-muted font12">By creating a job alert, you agree to our <a href="">Terms</a>. You can change your consent settings at any time by unsubscribing or as detailed in our terms.</div>
+        </div>
+        </form>
+      </div>
+      <div class="col-xl-6 cardBody" style="display: none;" data-cardId="0">
+        <div class="card mb-2 scroll">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">Node js developer_Immediate joiner only<i class="fas fa-times cards" data-cardId="5"></i></h5>
+            <p class="card-subtitle mb-2 font12">Ailoitte Technologies Pvt Ltd-Bengaluru , Karnataka</p>
+            <p class="card-subtitle mb-2 font12">&#8377;15,000 - &#8377;50,000 a month</p>
+            <p class="card-subtitle mb-2  font12">You must create an Indeed account before continuing to the company website to apply</p>
+            <button class="button btn" style="font-size: 20px; height: 50px;">Apply now</button>
+            <button class="btn heart1"><i class="far fa-heart"></i></button>
+            <hr>
+            <div class="scrollDiv">
+            <p class="mt-2 mb-2 font13-5">We are looking for a full-time person who has extensive experience in backend web development and building scalable systems.</p>
+            <p class="mb-2 font13-5">Do you want to solve tough technical problems at a scale that will reshape the healthcare industry for generations? You will get the opportunity to be involved in architecture, data modelling, design and implementation of microservices/microsites, and highly scalable applications.</p>
+            <p class="mb-2 font13-5">The successful candidates will be working in a team of highly skilled and experienced developers, data scientists, and CTO.</p>
+            <p class="mb-2 font-weight-bold font13-5">Key Strengths :</p>
+            <p class="mb-2 font13-5">- Takes pride in writing production-quality code</p>
+            <p class="mb-2 font13-5">- Strong fundamentals in data structures, algorithms, web technologies, and design patterns- Calm under pressure</p>
+            <p class="mb-2 font13-5">- Hungry to improve</p>
+            <p class="mb-2 font-weight-bold font13-5">Required Skills :</p>
+            <p class="mb-2 font13-5">- Expertise in Typescript / ES6+ / Java</p>
+            <p class="mb-2 font13-5">- Extensive experience with one of the following</p>
+            <p class="mb-2 font13-5">- Node.js / Express.js / LoopBack / Hapi.js / StrongLoop / Serverless or Enterprise Java-based server technology</p>
+            <p class="mb-2 font13-5">- Exposure to React 16+ a plus</p>
+            <p class="mb-2 font13-5">- Experience in working with a multinational distributed team</p>
+            <p class="mb-2 font13-5">- Excellent verbal and written communication skills</p>
+            <p class="mb-2 font13-5">- Contributing to technical and implementation discussions</p>
+            <p class="mb-2 font13-5">- Attention to detail and ability to maintain comprehensive documentation</p>
+            <p class="mb-2 font13-5">- Ability to meet deadlines consistently and communicate status effectively.</p>
+            <p class="mb-2 font13-5">Job Type: Full-time</p>
+            <p class="mb-2 font13-5">Salary: ₹45,000.00 - ₹65,000.00 per mont</p>
+            <p class="mb-2 font13-5">Education:</p>
+            <ul><l font13-5">Bachelor's (Required)</li></ul>
+            <p class="mb-2 font13-5">Experience:</p>
+            <ul><l font13-5">Programming: 1 year (Preferred)</li></ul>
+            <p class="font-weight-bold font13-5">Speak with the employer</p>
+            <p class="mb-2 font13-5">+91 9932121612</p>
+            <p class="card-text text-muted mt-2 font13">30 days ago</p>
+            <button class="btn btn-light mb-5"><i class="fa fa-flag" aria-hidden="true"></i> Report job</button>
+             </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-xl-6 cardBody" style="display: none;" data-cardId="1">
+        <div class="card mb-2 scroll">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">Node js Developer<i class="fas fa-times cards" data-cardId="5"></i></h5>
+            <p class="card-subtitle mb-2 font12">Stixis Technologies-Bengaluru , Karnataka</p>
+            <p class="card-subtitle mb-2 font12">&#8377;15,000 - &#8377;50,000 a month</p>
+            <p class="card-subtitle mb-2  font12">You must create an Indeed account before continuing to the company website to apply</p>
+            <button class="button btn" style="font-size: 20px; height: 50px;">Apply now</button>
+            <button class="btn heart1"><i class="far fa-heart"></i></button>
+            <hr>
+            <div class="scrollDiv">
+            <p class="mt-2 mb-2" font13-5">We are looking for a full-time person who has extensive experience in backend web development and building scalable systems.</p>
+            <p class="mb-2 font13-5">Do you want to solve tough technical problems at a scale that will reshape the healthcare industry for generations? You will get the opportunity to be involved in architecture, data modelling, design and implementation of microservices/microsites, and highly scalable applications.</p>
+            <p class="mb-2 font13-5">The successful candidates will be working in a team of highly skilled and experienced developers, data scientists, and CTO.</p>
+            <p class="mb-2 font-weight-bold font13-5">Key Strengths :</p>
+            <p class="mb-2 font13-5">- Takes pride in writing production-quality code</p>
+            <p class="mb-2 font13-5">- Strong fundamentals in data structures, algorithms, web technologies, and design patterns- Calm under pressure</p>
+            <p class="mb-2 font13-5">- Hungry to improve</p>
+            <p class="mb-2 font-weight-bold font13-5">Required Skills :</p>
+            <p class="mb-2 font13-5">- Expertise in Typescript / ES6+ / Java</p>
+            <p class="mb-2 font13-5">- Extensive experience with one of the following</p>
+            <p class="mb-2 font13-5">- Node.js / Express.js / LoopBack / Hapi.js / StrongLoop / Serverless or Enterprise Java-based server technology</p>
+            <p class="mb-2 font13-5">- Exposure to React 16+ a plus</p>
+            <p class="mb-2 font13-5">- Experience in working with a multinational distributed team</p>
+            <p class="mb-2 font13-5">- Excellent verbal and written communication skills</p>
+            <p class="mb-2 font13-5">- Contributing to technical and implementation discussions</p>
+            <p class="mb-2 font13-5">- Attention to detail and ability to maintain comprehensive documentation</p>
+            <p class="mb-2 font13-5">- Ability to meet deadlines consistently and communicate status effectively.</p>
+            <p class="mb-2 font13-5">Job Type: Full-time</p>
+            <p class="mb-2 font13-5">Salary: ₹45,000.00 - ₹65,000.00 per mont</p>
+            <p class="mb-2 font13-5">Education:</p>
+            <ul><l font13-5">Bachelor's (Required)</li></ul>
+            <p class="mb-2 font13-5">Experience:</p>
+            <ul><l font13-5">Programming: 1 year (Preferred)</li></ul>
+            <p class="font-weight-bold font13-5">Speak with the employer</p>
+            <p class="mb-2 font13-5">+91 9932121612</p>
+            <p class="card-text text-muted mt-2 font13">30 days ago</p>
+            <button class="btn btn-light mb-5"><i class="fa fa-flag" aria-hidden="true"></i> Report job</button>
+             </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-xl-6 cardBody" style="display: none;" data-cardId="2">
+        <div class="card mb-2 scroll">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">Node js Developer<i class="fas fa-times cards" data-cardId="5"></i></h5>
+            <p class="card-subtitle mb-2 font12">Datamatics Global Services Ltd-Bengaluru , Karnataka</p>
+            <p class="card-subtitle mb-2 font12">&#8377;15,000 - &#8377;50,000 a month</p>
+            <p class="card-subtitle mb-2  font12">You must create an Indeed account before continuing to the company website to apply</p>
+            <button class="button btn" style="font-size: 20px; height: 50px;">Apply now</button>
+            <button class="btn heart1"><i class="far fa-heart"></i></button>
+            <hr>
+            <div class="scrollDiv">
+            <p class="mt-2 mb-2" font13-5">We are looking for a full-time person who has extensive experience in backend web development and building scalable systems.</p>
+            <p class="mb-2 font13-5">Do you want to solve tough technical problems at a scale that will reshape the healthcare industry for generations? You will get the opportunity to be involved in architecture, data modelling, design and implementation of microservices/microsites, and highly scalable applications.</p>
+            <p class="mb-2 font13-5">The successful candidates will be working in a team of highly skilled and experienced developers, data scientists, and CTO.</p>
+            <p class="mb-2 font-weight-bold font13-5">Key Strengths :</p>
+            <p class="mb-2 font13-5">- Takes pride in writing production-quality code</p>
+            <p class="mb-2 font13-5">- Strong fundamentals in data structures, algorithms, web technologies, and design patterns- Calm under pressure</p>
+            <p class="mb-2 font13-5">- Hungry to improve</p>
+            <p class="mb-2 font-weight-bold font13-5">Required Skills :</p>
+            <p class="mb-2 font13-5">- Expertise in Typescript / ES6+ / Java</p>
+            <p class="mb-2 font13-5">- Extensive experience with one of the following</p>
+            <p class="mb-2 font13-5">- Node.js / Express.js / LoopBack / Hapi.js / StrongLoop / Serverless or Enterprise Java-based server technology</p>
+            <p class="mb-2 font13-5">- Exposure to React 16+ a plus</p>
+            <p class="mb-2 font13-5">- Experience in working with a multinational distributed team</p>
+            <p class="mb-2 font13-5">- Excellent verbal and written communication skills</p>
+            <p class="mb-2 font13-5">- Contributing to technical and implementation discussions</p>
+            <p class="mb-2 font13-5">- Attention to detail and ability to maintain comprehensive documentation</p>
+            <p class="mb-2 font13-5">- Ability to meet deadlines consistently and communicate status effectively.</p>
+            <p class="mb-2 font13-5">Job Type: Full-time</p>
+            <p class="mb-2 font13-5">Salary: ₹45,000.00 - ₹65,000.00 per mont</p>
+            <p class="mb-2 font13-5">Education:</p>
+            <ul><l font13-5">Bachelor's (Required)</li></ul>
+            <p class="mb-2 font13-5">Experience:</p>
+            <ul><l font13-5">Programming: 1 year (Preferred)</li></ul>
+            <p class="font-weight-bold font13-5">Speak with the employer</p>
+            <p class="mb-2 font13-5">+91 9932121612</p>
+            <p class="card-text text-muted mt-2 font13">30 days ago</p>
+            <button class="btn btn-light mb-5"><i class="fa fa-flag" aria-hidden="true"></i> Report job</button>
+             </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-xl-6 cardBody" style="display: none;" data-cardId="3">
+        <div class="card mb-2 scroll">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">Node js Developer<i class="fas fa-times cards" data-cardId="5"></i></h5>
+            <p class="card-subtitle mb-2 font12">Applaunch Bangalore Pvt Ltd-Bengaluru , Karnataka</p>
+            <p class="card-subtitle mb-2 font12">&#8377;15,000 - &#8377;50,000 a month</p>
+            <p class="card-subtitle mb-2  font12">You must create an Indeed account before continuing to the company website to apply</p>
+            <button class="button btn" style="font-size: 20px; height: 50px;">Apply now</button>
+            <button class="btn heart1"><i class="far fa-heart"></i></button>
+            <hr>
+            <div class="scrollDiv">
+            <p class="mt-2 mb-2" font13-5">We are looking for a full-time person who has extensive experience in backend web development and building scalable systems.</p>
+            <p class="mb-2 font13-5">Do you want to solve tough technical problems at a scale that will reshape the healthcare industry for generations? You will get the opportunity to be involved in architecture, data modelling, design and implementation of microservices/microsites, and highly scalable applications.</p>
+            <p class="mb-2 font13-5">The successful candidates will be working in a team of highly skilled and experienced developers, data scientists, and CTO.</p>
+            <p class="mb-2 font-weight-bold font13-5">Key Strengths :</p>
+            <p class="mb-2 font13-5">- Takes pride in writing production-quality code</p>
+            <p class="mb-2 font13-5">- Strong fundamentals in data structures, algorithms, web technologies, and design patterns- Calm under pressure</p>
+            <p class="mb-2 font13-5">- Hungry to improve</p>
+            <p class="mb-2 font-weight-bold font13-5">Required Skills :</p>
+            <p class="mb-2 font13-5">- Expertise in Typescript / ES6+ / Java</p>
+            <p class="mb-2 font13-5">- Extensive experience with one of the following</p>
+            <p class="mb-2 font13-5">- Node.js / Express.js / LoopBack / Hapi.js / StrongLoop / Serverless or Enterprise Java-based server technology</p>
+            <p class="mb-2 font13-5">- Exposure to React 16+ a plus</p>
+            <p class="mb-2 font13-5">- Experience in working with a multinational distributed team</p>
+            <p class="mb-2 font13-5">- Excellent verbal and written communication skills</p>
+            <p class="mb-2 font13-5">- Contributing to technical and implementation discussions</p>
+            <p class="mb-2 font13-5">- Attention to detail and ability to maintain comprehensive documentation</p>
+            <p class="mb-2 font13-5">- Ability to meet deadlines consistently and communicate status effectively.</p>
+            <p class="mb-2 font13-5">Job Type: Full-time</p>
+            <p class="mb-2 font13-5">Salary: ₹45,000.00 - ₹65,000.00 per mont</p>
+            <p class="mb-2 font13-5">Education:</p>
+            <ul><l font13-5">Bachelor's (Required)</li></ul>
+            <p class="mb-2 font13-5">Experience:</p>
+            <ul><l font13-5">Programming: 1 year (Preferred)</li></ul>
+            <p class="font-weight-bold font13-5">Speak with the employer</p>
+            <p class="mb-2 font13-5">+91 9932121612</p>
+            <p class="card-text text-muted mt-2 font13">30 days ago</p>
+            <button class="btn btn-light mb-5"><i class="fa fa-flag" aria-hidden="true"></i> Report job</button>
+             </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-xl-6 cardBody" style="display: none;" data-cardId="4">
+        <div class="card mb-2 scroll">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">Node js Developer<i class="fas fa-times cards" data-cardId="5"></i></h5>
+            <p class="card-subtitle mb-2 font12">Kode Connect-Bengaluru , Karnataka</p>
+            <p class="card-subtitle mb-2 font12">&#8377;15,000 - &#8377;50,000 a month</p>
+            <p class="card-subtitle mb-2  font12">You must create an Indeed account before continuing to the company website to apply</p>
+            <button class="button btn" style="font-size: 20px; height: 50px;">Apply now</button>
+            <button class="btn heart1"><i class="far fa-heart"></i></button>
+            <hr>
+            <div class="scrollDiv">
+            <p class="mt-2 mb-2" font13-5">We are looking for a full-time person who has extensive experience in backend web development and building scalable systems.</p>
+            <p class="mb-2 font13-5">Do you want to solve tough technical problems at a scale that will reshape the healthcare industry for generations? You will get the opportunity to be involved in architecture, data modelling, design and implementation of microservices/microsites, and highly scalable applications.</p>
+            <p class="mb-2 font13-5">The successful candidates will be working in a team of highly skilled and experienced developers, data scientists, and CTO.</p>
+            <p class="mb-2 font-weight-bold font13-5">Key Strengths :</p>
+            <p class="mb-2 font13-5">- Takes pride in writing production-quality code</p>
+            <p class="mb-2 font13-5">- Strong fundamentals in data structures, algorithms, web technologies, and design patterns- Calm under pressure</p>
+            <p class="mb-2 font13-5">- Hungry to improve</p>
+            <p class="mb-2 font-weight-bold font13-5">Required Skills :</p>
+            <p class="mb-2 font13-5">- Expertise in Typescript / ES6+ / Java</p>
+            <p class="mb-2 font13-5">- Extensive experience with one of the following</p>
+            <p class="mb-2 font13-5">- Node.js / Express.js / LoopBack / Hapi.js / StrongLoop / Serverless or Enterprise Java-based server technology</p>
+            <p class="mb-2 font13-5">- Exposure to React 16+ a plus</p>
+            <p class="mb-2 font13-5">- Experience in working with a multinational distributed team</p>
+            <p class="mb-2 font13-5">- Excellent verbal and written communication skills</p>
+            <p class="mb-2 font13-5">- Contributing to technical and implementation discussions</p>
+            <p class="mb-2 font13-5">- Attention to detail and ability to maintain comprehensive documentation</p>
+            <p class="mb-2 font13-5">- Ability to meet deadlines consistently and communicate status effectively.</p>
+            <p class="mb-2 font13-5">Job Type: Full-time</p>
+            <p class="mb-2 font13-5">Salary: ₹45,000.00 - ₹65,000.00 per mont</p>
+            <p class="mb-2 font13-5">Education:</p>
+            <ul><l font13-5">Bachelor's (Required)</li></ul>
+            <p class="mb-2 font13-5">Experience:</p>
+            <ul><l font13-5">Programming: 1 year (Preferred)</li></ul>
+            <p class="font-weight-bold font13-5">Speak with the employer</p>
+            <p class="mb-2 font13-5">+91 9932121612</p>
+            <p class="card-text text-muted mt-2 font13">30 days ago</p>
+            <button class="btn btn-light mb-5"><i class="fa fa-flag" aria-hidden="true"></i> Report job</button>
+             </div>
+        </div>
+      </div>
+      </div>
+      <p class="hide pt-5 my-3" style="font-size: 15px;">Easily apply to jobs with your Indeed Resume</p>
+      <button type="submit" class="btn footer mb-2 p-3 hide mx-3 my-3" style="width: 90%; border-radius: 10px;">Create your resume</button>
+      <p class="pt-5 text-center hide font13" >Employers: <a href="" style="color: #2557a7;">Post a Job</a></p>
+    </div>
+    </div>
+    </div>
+    <hr>
+    <div class="mt-3 hide cont hide123">
+      <div id="accordion">
+        <div class="card mb-4 acc">
+          <h5 class="card-link card-header text-center border-bottom-0 bg-white" data-toggle="collapse" href="#collapseOne" >
+            Related to this search
+          </h5>
+        </div>
+        <div class="card acc">
+          <h6 class="collapsed card-link card-header border-bottom-0 bg-white" data-toggle="collapse" href="#collapseTwo">
+            Sign in
+          </h6>
+        </div>
+        <div class="card acc border-top-0">
+          <h6 class="card-link card-header border-bottom-0 bg-white" data-toggle="collapse" href="#collapseThree">
+            Job Seekers
+          </h6>
+          <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <div class="card browse">Help Center</div>
+              <div class="card border-top-0 browse">Browse Companies</div>
+              <div class="card border-top-0 browse">Career Advice</div>
+              <div class="card border-top-0 browse">Work at Indeed</div>
+              <div class="card border-top-0 browse border-bottom-0 pb-0">Browse Job</div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card acc border-top-0">
+          <h6 class="collapsed card-link card-header border-bottom-0 bg-white" data-toggle="collapse" href="#collapseFour">
+            Employers
+          </h6>
+          <div id="collapseFour" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <div class="card browse">Post a Job</div>
+              <div class="card border-top-0 browse">Help centre</div>
+              <div class="card border-top-0 browse border-bottom-0 pb-0">Indeed Events</div>
+            </div>
+          </div>
+        </div>
+        <div class="card acc border-top-0">
+          <h6 class="collapsed card-link card-header border-bottom-0 bg-white pb-0" data-toggle="collapse" href="#collapseFive">
+            About
+          </h6>
+          <div id="collapseFive" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <div class="card border-bottom-0">About</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hide container cont hide123">
+      <div><small class="mx-4">@2021 Indeed</small></div>
+      <small class="mx-4">Accessibility at Indeed</small>
+      <small class="mx-2">Privacy Center</small>
+      <small class="mx-2">Cookies</small>
+      <div><small class="mx-4">Privacy</small></div>
+      <small class="mx-4">Terms</small>
+    </div>
+    <div class="mx-5 pt-3 unhide" >
+      <div class="row">
+        <div class="col-xl-9">
+          <a href="" class="px-2 anchor ">Career Advice</a>
+          <a href="" class="px-2 anchor">Browse Jobs</a>
+          <a href="" class="px-2 anchor">Browser Companies</a>
+          <a href="" class="px-2 anchor">Salaries</a>
+          <a href="" class="px-2 anchor">Indeed Events</a>
+          <a href="" class="px-2 anchor">Work at Indeed</a>
+          <a href="" class="px-2 anchor">Countries</a>
+          <a href="" class="px-2 anchor">About</a>
+          <a href="" class="px-2 anchor">Health Center</a>
+          <a href="" class="px-2 anchor">@2021 Indeed</a>
+          <a href="" class="px-2 anchor">Accessibility at Indeed</a>
+          <a href="" class="px-2 anchor">Privacy Center</a>
+          <a href="" class="px-2 anchor">Cookies</a>
+          <a href="" class="px-2 anchor">Privacy</a>
+          <a href="" class="px-2 anchor">Terms</a>
+    </div>
+    </div>
+    </div>
+    <div class="container-fluid text-center pb-3 pt-3 mt-4 bg-light unhide" >
+      <h5 class="text-center pb-2 text-secondary">Let Employers Find You</h5>
+      <button class="button btn pt-2 pb-2">upload your resume</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+    </body>
+</html>
